@@ -2409,6 +2409,10 @@
         "list": [
             {
                 "allValue": null,
+                "current": {
+                    "text": "test",
+                    "value": "test"
+                },
                 "datasource": "vearch",
                 "definition": "Vearch_request_duration_seconds_count",
                 "hide": 0,
