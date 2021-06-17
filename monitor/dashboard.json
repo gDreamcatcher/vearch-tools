@@ -402,13 +402,6 @@
                     "interval": "",
                     "legendFormat": "search/s",
                     "refId": "B"
-                },
-                {
-                    "expr": "sum(Vearch_request_duration_seconds_count{job=~\"soutu.*\",key='handleSearchDoc'}) ",
-                    "hide": true,
-                    "interval": "",
-                    "legendFormat": "search-all/s",
-                    "refId": "C"
                 }
             ],
             "thresholds": [
@@ -2416,10 +2409,6 @@
         "list": [
             {
                 "allValue": null,
-                "current": {
-                    "text": "soutu2",
-                    "value": "soutu2"
-                },
                 "datasource": "vearch",
                 "definition": "Vearch_request_duration_seconds_count",
                 "hide": 0,
